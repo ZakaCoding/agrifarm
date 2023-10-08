@@ -55,14 +55,10 @@ export function Testimony() {
             ))}
         </div>
 
-        <h2 className="text-left text-3xl mb-6 absolute bottom-20 right-10">
-        Get support anytime you <br />
-        need it. Our support and <br />
-        engineering teams are <br />
-        dedicated to helping you <br />
-        — whether it be getting <br />
-        set up and running or
-        helping you scale.
+        <h2 className="text-left text-3xl mb-6 absolute bottom-20 right-20">
+        "Outstanding support from Agrifarm! <br />
+        They helped us from setup <br />
+        to scaling seamlessly. Highly recommended!
         </h2>
 
     </section>

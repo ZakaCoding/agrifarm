@@ -13,7 +13,7 @@ export function Hero() {
     return (
 
         <section
-        className="container w-full h-screen my-5"
+        className="container w-full my-5"
         >
             <Row>
                 <Col

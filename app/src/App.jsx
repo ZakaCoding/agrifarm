@@ -11,6 +11,8 @@ import { Community } from './ui/pages/Home/ui/partials/Community'
 import { Gallery } from './ui/pages/Home/ui/partials/Gallery'
 import { Information } from './ui/pages/Home/ui/partials/Information'
 import { Testimony } from './ui/pages/Home/ui/partials/Testimony'
+import { Documents } from './ui/pages/Home/ui/partials/Documents'
+import { Footer } from './ui/pages/Home/ui/partials/Footer'
 
 function App() {
 
@@ -27,6 +29,8 @@ function App() {
         <Gallery />
         <Testimony />
         <Information />
+        <Documents />
+        <Footer />
       </div>
     </>
   )
