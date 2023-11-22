@@ -1,8 +1,14 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  /* max-width: 1280px; */
+}
+
+.information {
+  background-image: url('assets/image/call-bg.jpg');
+  background-position: center;
+}
+
+.drag-move {
+  pointer-events: none;
 }
 
 .logo {
@@ -16,6 +22,11 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+img.scale:hover {
+  transform: scale(1.1);
+  transition: all .5s ease-in;
 }
 
 @keyframes logo-spin {

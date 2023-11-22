@@ -1,33 +1,37 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+import { Navigation }  from './components/static/Navigation'
+import { Hero } from './ui/pages/Home/ui/partials/Hero'
+import { Partner } from './ui/pages/Home/ui/partials/Partner'
+import { Story } from './ui/pages/Home/ui/partials/Story'
+
 import './App.css'
+import { Product } from './ui/pages/Home/ui/partials/Product'
+import { Community } from './ui/pages/Home/ui/partials/Community'
+import { Gallery } from './ui/pages/Home/ui/partials/Gallery'
+import { Information } from './ui/pages/Home/ui/partials/Information'
+import { Testimony } from './ui/pages/Home/ui/partials/Testimony'
+import { Documents } from './ui/pages/Home/ui/partials/Documents'
+import { Footer } from './ui/pages/Home/ui/partials/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+    <Navigation />
+
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <Hero />
+        <Partner />
+        <Story />
+        <Product />
+        <Community />
+        <Gallery />
+        <Testimony />
+        <Information />
+        <Documents />
+        <Footer />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
